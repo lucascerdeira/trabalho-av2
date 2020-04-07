@@ -1,0 +1,48 @@
+body {
+    width:900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../imagens/wallpaperbranco.png);
+}
+
+img {
+    width: 15%;
+}
+
+figure {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+}
+
+h2 {
+    border-bottom: solid black 2px;
+}
+
+nav {
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+}
+
+span {
+    padding: 40px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+#video  {
+           text-align: left;
+}
+
+iframe {
+          text-align: left;
+}

@@ -1,0 +1,87 @@
+body 
+{
+    width:850px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../imagens/wallpaperbranco.png);
+   	background-repeat: no-repeat;
+    background-position: center;
+	background-attachment: fixed;
+     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+}
+
+p
+{
+	text-align: center;
+	text-align: justify;
+	font-size: 20px;
+}
+
+img 
+{
+    width: 30%;
+
+}
+
+figure
+{
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 
+{
+    text-align: center;
+    font-family: cursive;
+}
+
+h3
+{
+	text-align: center;
+	font-size: 25px;
+    font-family: cursive;
+}
+
+h2
+{
+	border-bottom: solid black 5px;
+}
+nav 
+{
+    background-color: black;
+    color: whitesmoke;
+    padding: 15px;
+    text-align: center;
+}
+
+span
+{
+    padding: 40px;
+    color: white;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+ol
+{
+	list-style-type:upper-roman;
+}
+div
+{
+	text-align: center;
+}
+hr{
+	border-bottom: solid black 5px
+}
+footer
+{
+	text-align: center;
+}
+

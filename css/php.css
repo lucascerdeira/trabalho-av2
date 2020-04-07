@@ -1,0 +1,60 @@
+body
+{
+	background-image: url(../imagens/wallpaperbranco.png);
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img
+{
+	
+	width: 400px;
+	height: 300px;
+}
+
+nav
+{
+	background-color: black;
+	font-size: 20px;
+	font-family: Times New Roman;
+	/*display: inline-block;*/
+}
+
+h2
+{
+	text-align: center;
+	font-size: 30px;
+	font-family: Comic Sans MS;
+}
+h3
+{
+	text-align: center;
+	font-size: 25px;
+	font-family: Comic Sans MS;
+}
+
+p
+{
+	text-align: center;
+	text-indent: 20px;
+	font-size: 20px;
+	font-family: Comic Sans MS;
+	
+	
+}
+
+code
+{
+	font-size: 14px;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+span {
+	margin: 50px;
+}

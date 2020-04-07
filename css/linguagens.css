@@ -1,0 +1,52 @@
+body {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    font-style: normal;
+    background-image: url(../imagens/wallpaperbranco.png)
+}
+
+figure {
+
+    text-align: center;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+    text-align: justify;
+}
+
+nav {
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+}
+
+span {
+    padding: 40px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+img 
+{
+    width: 200px;
+    height: 200px;
+}
+.link {
+    color: black;
+    text-decoration: underline;
+}
+.grow:hover
+{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}

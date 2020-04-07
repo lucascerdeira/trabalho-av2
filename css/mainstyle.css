@@ -1,0 +1,75 @@
+h1 {
+    text-align: center;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+h2 {
+    margin-top: 30px;
+    border-bottom: 2px solid black;
+    color: #333333;
+}
+
+h4 {
+    text-align: left;
+}
+
+p {
+  text-align: justify;
+}
+
+body {
+    background-image: url(../imagens/wallpaperbranco.png);
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    font-style: normal;
+}
+
+figure {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+#lampada {
+    width: 10%;
+    float: right;
+}
+
+figcaption {
+    margin-bottom: 30px;
+}
+
+nav {
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+}
+
+span {
+    padding: 40px;
+    color: white;
+}
+
+a {
+    text-decoration: none; 
+}
+
+#titulo {
+    margin-top: 50px;
+}
+
+#historia img {
+    width: 180px;
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+#profissao img {
+    width: 170px;
+    float: right;
+    margin-bottom: 15px;
+}

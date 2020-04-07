@@ -1,0 +1,63 @@
+body 
+{
+    width:900px;
+    margin-left: auto;
+    margin-right: auto;
+	background-image: url(../imagens/wallpaperbranco.png)
+}
+
+p
+{
+	text-align: center;
+	text-align: justify;
+	font-size: 20px;
+}
+
+
+img
+{
+    width: 40%;
+}
+
+#circulo:hover
+{
+	-webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+	/*border-radius:50%; ->deixar a com a borda arredondada*/
+}
+
+h2
+{
+    border-bottom: solid black 2px;
+}
+
+
+nav 
+{
+    background-color: black;
+    border-width: 2px;
+	border-color:black;
+	border-style: solid;
+    padding: 15px;
+    text-align: center;
+	overflow: hidden;	
+}
+
+span 
+{
+    padding: 50px;
+    color: white;
+	text-decoration: none;
+}
+span:hover
+{
+	background-color: white;
+	color: black;
+}
+
+footer
+{
+	border-top: solid black 2px;
+	text-align: right;
+}
