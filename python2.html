@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <link rel="shortcut icon" type="image/x-icon" href="imagens/py.jpg"
+    <head>
+        <title>pythpn</title>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" type="text/css" href="css/python2.css">
+    </head>
+        <body>
+            <nav>
+                <a href="index.html" target="_self"><span>Início</span></a>
+                <a href="Linguagens.html" target="_self"><span>Linguagens</span></a>
+                <a href="https://www.python.org/" target="_blank"><span>Python.org</span></a>
+                <a href="http://cafecomcodig0.com.br/5-apostilas-de-python-gratis-pdf/" target="_blank"><span>Apostilas</span></a>
+                <a href="https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&index=1" target="_blank"><span>Curso</span></a>
+            </nav>           
+<figure>         
+     <img src="imagens/python.jpg" alt="" title="python">         
+</figure>
+         <h1>Python</h1>
+            <h2>História</h2>
+          <p>
+                A Linguagem Python foi concebida no fim dos anos 80. A primeira ideia de implementar o Python surgiu mais especificamente em 1982 enquanto Guido Van Rossum trabalhava no CWI (Centrum Wiskunde & Informatica, Centro de Matemática e Ciência da Computação) em Amsterdã, Holanda, no time de desenvolvimento da Linguagem ABC. Neste mesmo local também foi desenvolvida a linguagem Algol 68.
+            Posteriormente, em 1987, com o fim da linguagem ABC, Guido foi transferido para o grupo de trabalho Amoeba — um sistema operacional Microkernel liderado por Andrew Tanenbaum. Foi neste grupo que Guido percebeu a necessidade de uma linguagem para escrever programas intermediários, algo entre o C e o Shell Script.
+            No início de seu projeto, Guido sabia que não queria siglas ou um nome fraco, como era o caso da linguagem ABC, ele queria que o nome da linguagem fosse marcante e forte, mas não fazia questão que o nome possuísse um significado profundo.
+            Foi então que Guido usou a primeira coisa que veio a sua cabeça: Monty Python’s Flying Circus. O que se encaixou perfeitamente no "padrão" de nomear uma linguagem em homenagem a pessoas famosas — ex: Pascal, Ada, Eiffel…— e à tradição do CWI de utilizar nomes de programas de TVs para projetos.
+                    Por anos o autor evitou vincular a linguagem ao réptil (a cobra píton) mas desistiu quando a editora O’Reilly — que possui a tradição de utilizar animais nas capas de seus livros — sugeriu colocar uma cobra píton na capa do seu primeiro livros<i>"Programming Python"</i>
+            </p>
+                <hr>
+    	<p><h3>5. Motivos para você começar a aprender a programar com Python</h3></p>
+
+            
+
+   <ol>
+          	<li><p>Livre e de código aberto: Não poderia deixar de mencionar isto como o primeiro item da lista. Python está sob a licença Python Software Foundation License, que é similiar a GPL com excessão de que pode-se distribuir os binários da linguagem sem necessitar anexar os fontes;</p></li>
+<br>
+           		<li><p>Multiplataforma: Por ser uma linguagem interpretada, Python roda em qualquer sistema que possua o seu interpretador. Além disso há “dialetos” Python como o já famoso Jython, uma forma de escrever Python em Java;</p></li>
+<br>
+           		<li><p>Alto Nível: Python é uma linguagem de alto nível, de desenvolvimento rápido (RAD – Rapid Application Development) e que segue técnicas de DRY (Don’t Repeat Yourself) e KISS (Keep It Simple Stupid), é inteligível como o Inglês e sempre evita o implícito;</p></li>
+<br>
+           	 	<li><p>Sintaxe: A sintaxe do Python é uma das suas mais fundamentais características. Em Python um bloco de código (por exemplo um if) é feito através de indentações. Isso força o desenvolvedor a indentar seu código fonte e garante uma boa legibilidade. Além de reduzir o uso de caracteres “esotéricos” como ->, ::, :=, {, }, etc. com Python você é capaz de escrever um for que testa uma determinada sequência e monta uma lista com (acredite) uma linha apenas;</p></li>
+<br>
+            	<li><p>Orientada a Objetos: A orientação a objetos no Python é explícita e muito divertida. Aliás, tudo para o Python são objetos e pacotes (inclusive tipos “primitivos”), mas nada que impeça que você programe de uma forma estruturada ou funcional. Isto tecnicamente faz do Python uma linguagem multiparadigma;</p></li>
+<hr>
+   </ol>	
+<br><br>
+          <div>
+          	 <iframe width="500" height="300" src="https://www.youtube.com/embed/Mp0vhMDI7fA?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+        	</div>
+<br> <br>
+<hr>
+<br>
+  <p>Conheça um projeto muito bacana feito com a linguagem Python, para controle de gastos publicos <a href="https://serenatadeamor.org/">Operação Serenata de amor</a></p>
+
+              <div>
+                  <img src="imagens/serenata.jpg">
+              </div>
+<hr>      
+<h3>Exemplos de codigo em Python</h3>
+<pre>
+ <p>
+         Ex: 1. Média na Materia de Desenvolvimento                                 					 		
+from math import floor, ceil
+print('Escola Dev')
+nome = input('Nome do aluno: ')
+n1 = float(input('Nota de PYTHON: '))
+n2 = float(input('Nota de PHP: '))
+n3 = float(input('Nota de JAVA: '))
+média = (n1 + n2 + n3) / 3
+passar = ceil(média)
+print('A nota do aluno {} foi {}'.format(nome,passar))
+print('Média real seria: {:.2f}'.format(média)) 
+</p>
+</pre>
+<hr>
+<pre>
+ <p>
+        Ex: 2. Apto ou Inapto para tirar a carteira 
+print("   AUTO ESCOLA LUCK DOG")
+nome = str(input("Qual o seu nome: "))
+nas = int(input("Ano de nascimento: "))
+ano = int(input("Ano Atual: "))
+idade = ano - nas
+if idade >= 18:
+apto = True
+else:
+apto = False
+print("STATUS")
+print("Idade",idade,"anos")
+if apto:
+   print("Apto a tirar a carteira ")
+else:
+print("Inapto a tirar a carteira")
+
+
+        Exemplo: 3. Projeto Intercambio
+reais = float(input('Quantos reias você tem: '))
+dolar = 3.15
+conversor = reais / dolar 
+if conversor >= 10000:
+    print('Parabens,com {:.2f} você vai a Irlanda!'.format(conversor))
+else:
+    if conversor < 10000:
+    print('Você tem {:.2f} valor abaixo para viagem,junte mais dinheiro!'
+    .format(conversor))
+        
+ </p>
+ </pre>
+<h4>Poxa não entendi esses códigos,sou iniciante!</h4>
+      <p>Muita calma nessa hora jovem gafanhoto,vou lhe explicar em um passo a passo bem resumido.Vamos lá, no EX:1 vemos o <i>from math import floor,ceil</i> na linha 1. estamos importando uma bliblioteca matemática, para economizar memória em sua maquina utilizaremos <i>from math</i>, pq essa bliblioteca math tem inumeras funções para facilitar a sua vida, por isso utilizaremos somente o <i>import floor,ceil</i> o <i>floor</i> tem a função de arredondar para baixo, já o <i>ceil</i> tem a função de arredondar para cima. Como você pode ter lido o python é tão simples que para você escrever algo que aparessa ao usuario basta escrever um <i>print</i> entre aspas simples. você também pode utilizar aspas duplas triplas,mas é algo que será visto mais para frente conforme seus estudos.</p>
+      <p>Novamente eu escrevo a praticidade do python,porque ele simplesmente já entende a sua variavel,sim sim é isso mesmo jovem gafanhoto, mas para ele entender você deve escrever a variavel seguida de <i>=</i> e, em python você não deve ler o sinal de igual e, sim recebe então repita comigo n1 RECEBE 5, o <i>o float</i> significa ponto flutuante e o input significa entrada de dados, para perguntar algo ao usuario,outra facilidade do Python é que diferente de outras linguagens ele consegue ler a variavel com acentos, não que eu indique muito, na média vemos isso, média está recebendo as notas, <i>passar</i> vai receber ceil para arredondar para cima a (média).
+      No Python 3 se utiliza {}.format, para falcita a manipulação ao invés de escrever o código como, ('A nota do aluno',variavel,'foi') como se utiliza em Python 2.7.</p>     
+ 
+                <footer>
+                  &copy;LUCAS ALMEIDA
+                </footer>	         
+        </body>
+</html>
